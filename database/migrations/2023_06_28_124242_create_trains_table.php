@@ -25,8 +25,6 @@ return new class extends Migration
             $table->tinyInteger('numero_carrozze');
             $table->string('puntuale')->default(true);
             $table->string('cancellato')->default(false);
-
-            $table->$table->timestamps();
         });
     }
 
